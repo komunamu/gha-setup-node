@@ -5,9 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-node@v3.9.0
+        with:
+          node-version: 18.17.0
       - run: npm ci
       - run: npm test
       - run: npm run build
+      
+      
 
       
 
