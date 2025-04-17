@@ -1,0 +1,12 @@
+name: our CI
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - run: npm ci
+
+      
+      
+    
