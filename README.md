@@ -1,3 +1,11 @@
+# Specific node version setup
+Server keep change the node version, so we need to keep the same node version of the local machine. 
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
